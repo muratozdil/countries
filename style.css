@@ -11,8 +11,8 @@ html {
 
 body {
     font-family: system-ui;
-    color: #555;
-    background-color: #f7f7f7;
+    color: #211f1f;
+    background-color: #555;
     min-height: 100vh;
 
     display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 .country {
-    background-color: #fff;
+    background-color: #a6a3a3;
     box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
     font-size: 1.8rem;
     width: 30rem;
@@ -103,8 +103,8 @@ body {
     font-size: 2rem;
     padding: 2rem 5rem;
     border-radius: 0.7rem;
-    color: white;
-    background-color: orangered;
+    color: rgb(100, 92, 92);
+    background-color: palevioletred;
     cursor: pointer;
 }
 
@@ -123,4 +123,8 @@ body {
     margin: 2rem;
     border: 3rem solid white;
     box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.btn-country {
+    margin: 15px;
 }
